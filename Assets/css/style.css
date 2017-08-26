@@ -1,0 +1,15 @@
+body{
+	background-image: url("../images/Dissidia_cast.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.charImg{
+	height: 200px;
+	width: 200px;
+	margin-left: 25px; 
+}
+
+.text{
+	font-weight: bold;
+	text-align: center;
+}

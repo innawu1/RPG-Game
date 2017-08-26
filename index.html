@@ -9,9 +9,61 @@
 <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
 </script>
+<script type="text/javascript" src="Assets/jQuery/jQuery.js"></script>
 </head>
 
 <body>
+<header class ="well text"><h1>Final Fantasy RPG</h1></header>
+<div class = "container">
+	<div class = "row chosenCharacter">
+			<h2 class ="well">Character Select</h2>
+			<div id="cloud" class ="charCard col-xs-6 col-md-3 col-lg-3 well">
+				<div class= "text">Cloud</div>
+				<br/>
+				<img src = "Assets/images/cloud-strife.png" class ="charImg" align="middle">
+				<br/>
+				<div id ="cloudHP" class="text"></div>
+			</div>
+
+			<div id="squall" class ="charCard col-xs-6 col-md-3 col-lg-3 well">
+				<div class="text">Squall</div>
+				<br/>
+				<img src = "Assets/images/squall-leonhart.png" class ="charImg">
+				<br/>
+				<div id="squallHP" class="text"></div>
+			</div>
+
+			<div id="zidane" class ="charCard col-xs-6 col-md-3 col-lg-3 well">
+				<div class="text">Zidane</div>
+				<br/>
+				<img src = "Assets/images/zidane-tribal.png" class="charImg">
+				<br/>
+				<div id="zidaneHP" class="text"></div>
+			</div>
+
+			<div id ="tidus" class = "charCard col-xs-6 col-md-3 col-lg-3 well">
+				<div class="text">Tidus</div>
+				<br/>
+				<img src = "Assets/images/tidus.png" class="charImg">
+				<br/>
+				<div id = "tidusHP" class = "text"></div>
+			</div>
+
+		</div>
+
+
+	<div class = "row playerCharacter">
+	<h2 class="well">Player</h2>
+	</div>
+
+	<div class = "row btn btn-default" id="attack-button">
+	Attack
+	</div>
+
+	<div class = "row enemyCharacter">
+	<h2 class="well">Enemy</h2>
+	</div>
+</div>
 
 
 
